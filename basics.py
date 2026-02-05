@@ -122,3 +122,13 @@ print(a)
 
 """
 
+# Comparison Operator
+
+a = 56
+b  = 58
+
+print(a == b)
+print(a != b)
+print(a > b)
+print(a>=b)
+print(a<b, a<=b)
