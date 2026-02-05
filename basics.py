@@ -71,9 +71,24 @@ c=10+4j
 d="hisanju"
 e= False 
 print(a,type(a),b,type(b),c,type(c),d,type(d),e,type(e))
+
+
+"""
 """
 total=0
 for i in range(1, 1000):
     if i % 3 == 0 or i % 5 == 0:
          total += i
 print("Sum of all multiples of 3 or 5 below 1000 is:", total)
+"""
+
+#A rithmetic operators
+
+print(100 + 100)    # its addition
+print(100 - 100)    # its a subraction 
+print(100 * 100)    # its a multiplication
+print(100 / 100)    # its a division
+print(100 ** 100)   #power os the value example 100 to the power of 100 
+print(100 // 100)   # quotient
+print(100 % 100)    # reminder
+
