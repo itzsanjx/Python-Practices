@@ -83,12 +83,42 @@ print("Sum of all multiples of 3 or 5 below 1000 is:", total)
 """
 
 #A rithmetic operators
-
+"""
 print(100 + 100)    # its addition
 print(100 - 100)    # its a subraction 
 print(100 * 100)    # its a multiplication
 print(100 / 100)    # its a division
-print(100 ** 100)   #power os the value example 100 to the power of 100 
+print(89 ** 15) # r os the value example 100 to the power of 100 
 print(100 // 100)   # quotient
 print(100 % 100)    # reminder
+
+"""
+# Assignment Operator
+
+"""
+a = 55              # a = 55 it perfoms like this 
+print(a)
+
+a += 59             # a = a + 59
+print(a)
+
+a **=76             # a = a ** 76
+print(a)
+
+a //= 65            # a = a //= 65
+print(a)
+
+a %= 15             # a = a %= 15
+print(a)
+ 
+a *= 46             # a = a * 46
+print(a)
+
+a /= 89             # a = a / 89
+print(a)
+
+a -= 56             # a = a - 56 
+print(a)
+
+"""
 
