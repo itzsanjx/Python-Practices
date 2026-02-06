@@ -123,12 +123,87 @@ print(a)
 """
 
 # Comparison Operator
-
+"""
 a = 56
 b  = 58
 
 print(a == b)
 print(a != b)
 print(a > b)
-print(a>=b)
+print(a>=b)  
 print(a<b, a<=b)
+"""
+# Python Collectio 
+"""
+List is collection collection of multiple data types are been stored in a single variable  for
+ eg :  a=[10,"sanu", 5.667, 6j, ]
+ called as list variable
+
+sanju = [5,"sju" ,4.5, 6j ]
+print(sanju, type(sanju))
+ """
+
+# list will indicates in a three typr
+# List []
+"""
+sanju = ["sefr","def",45,6.7,"gello"]
+print(sanju[2])                 #--> its an ordered tpye and it changable & it allows duplicate members
+sanju[3] = "true"
+print(sanju,type(sanju))
+"""
+# Tuple ()
+"""
+sanju = ("sefr","def",45,6.7,"gello",1,1,1,1,1,1,1,1)
+print(sanju[2])                 #-->  tuple an ordered tpye and it unchangable & it allows duplicate members
+print(sanju,type(sanju))
+"""
+# set{}
+"""
+sanju = {"sefr","def",45,6.7,"gello",1,1,1,1,1,1,1,1}
+               #-->  Set allows an multiple duplicate  entries  but it will reflect on the resule and it will  changes the result as per the py libs
+print(sanju,type(sanju))
+"""
+
+# Dictonary
+"""
+sanju = {
+    "hi " : "how can i help " ,
+    "how" : "you  out for youi",      #  --> its an un ordered and changable no duplicate entries willbe perfomed  
+    "fine da buddy"  : "today"}       #  --> it will be denoted as {:} using this value only it assigned as a dict
+sanju[4] = "kick you"
+print(sanju,type(sanju))
+"""
+
+# immutable and mutable data types  
+# in immutable samae value stores an ind of the value like a=1 means 1254254155412  while b=1 in the sense  the id will be remains the same  1254254155412
+# in  mutabl;e data type  same value that store an seperate seperate valuse inthe location lib a=1 45124512454 b=1 1215154154251451 id will be differ from one another 
+
+#example immmutable
+"""
+a=1
+b=1
+print(id(a))
+print(id(a))
+
+# muttable  [denotes by this bracket]
+a=[1,2,3,4,5,6]
+b=[1,2,3,4,5,6]
+print(id(a))
+print(id(b))
+"""
+#Identify Operators
+ #it checks the momory address of the value stord in the lib 
+"""
+a=1
+b=2
+print(a == b)  # --> comparision operator has been used 
+print(a is not b)   #--> identify operator has been used it checks the varable address that stored in the lib
+
+a=1
+b=1
+print(a == b)  # --> comparision operator has been used 
+print(a is b)  
+"""
+
+#Membership operator
+
