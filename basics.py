@@ -193,9 +193,9 @@ print(id(b))
 """
 #Identify Operators
  #it checks the momory address of the value stord in the lib 
-"""
-a=1
-b=2
+
+a=34
+b=34
 print(a == b)  # --> comparision operator has been used 
 print(a is not b)   #--> identify operator has been used it checks the varable address that stored in the lib
 
@@ -203,7 +203,6 @@ a=1
 b=1
 print(a == b)  # --> comparision operator has been used 
 print(a is b)  
-"""
 
 #Membership operator
 
