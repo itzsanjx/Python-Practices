@@ -206,4 +206,74 @@ print(a is b)
 """
 
 #Membership operator
+ 
+#get ab input foem an use and print the functions
 
+toll1 = int(input("Chennai toll1 collected amount rs: "))
+toll2 = int(input("Vellore toll2 collected amount rs: "))
+toll3 = int(input("Ambur toll3 collected amount rs: "))
+toll4 = int(input("Gudiyatham the toll4 collected amount rs: "))
+if(toll1 > 100):
+    print(toll1, "Charged an higher Price as per the norms of RTO")
+    if(toll1<100):
+        print(toll1, "Chennai Charged an Valuable amount and \"Good\"")
+        if(toll1> 300):
+            print("Too much amount has been Collected in Chennai ")
+    elif(toll1 > 1000):
+        print("Rais an complaint against an \"RTO\" in chennai and inform to the the owner")
+if(toll2 > 150):
+    print(toll2, "Charged an higher Price and inform to owner")
+    if(toll2<120):
+        print(toll2, "Vellore Charged an Valuable amount and \"Good\"")
+        if(toll1> 300):
+            print("Too much amount has been Collected in Vellore ")
+    elif(toll2 > 700):
+        print("Rais an complaint against an \"RTO\" and inform to the the owner")
+if(toll3 > 50):
+    print(toll3, "Charged an higher Price and inform to owner")
+    if(toll3<30):
+        print(toll3, "Charged an Valuable amount and \"Good\"")
+        if(toll1> 300):
+            print("Too much amount has been Collected in Ambur ")
+    elif(toll3 > 1000):
+        print("Rais an complaint against an \"RTO\" and inform to the the owner")
+if(toll4 > 100):
+    print(toll4, "Charged an higher Price and inform to owner")
+    if(toll1<100):
+        print(toll4, "Charged an Valuable amount and \"Good\"")
+        if(toll1> 300):
+            print("Too much amount has been Collected in Gudiyatham ")
+    elif(toll4 > 500):
+        print("Rais an complaint against an \"RTO\" and inform to the the owner")
+sum = toll1 + toll2 + toll3 + toll4
+print("THe trip has been complted sucessfully and the total spent inthe tool amount would be \n :" , sum)
+
+"""
+#  Loop Statement 
+"""
+"""i. For Loop 
+ii. while Loop
+"""
+"""
+a = 1
+while a>0:
+    print(a)
+    a=a + 1
+"""
+"""
+
+num =35
+symbol = "%"
+
+counter =1
+b=1
+while b<=num:
+    a=1
+    while a<=counter:
+        print(symbol, end="Y")
+        a+=1
+    print()
+    b+=1
+    counter +=1
+print("loope ended here")
+"""
