@@ -193,7 +193,7 @@ print(id(b))
 """
 #Identify Operators
  #it checks the momory address of the value stord in the lib 
-
+"""
 a=34
 b=34
 print(a == b)  # --> comparision operator has been used 
@@ -247,19 +247,15 @@ if(toll4 > 100):
 sum = toll1 + toll2 + toll3 + toll4
 print("THe trip has been complted sucessfully and the total spent inthe tool amount would be \n :" , sum)
 
-"""
+
 #  Loop Statement 
-"""
-"""i. For Loop 
+
+i. For Loop 
 ii. while Loop
-"""
-"""
 a = 1
 while a>0:
     print(a)
     a=a + 1
-"""
-"""
 
 num =35
 symbol = "%"
