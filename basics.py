@@ -194,8 +194,8 @@ print(id(b))
 #Identify Operators
  #it checks the momory address of the value stord in the lib 
 """
-a=34
-b=34
+a=1
+b=2
 print(a == b)  # --> comparision operator has been used 
 print(a is not b)   #--> identify operator has been used it checks the varable address that stored in the lib
 
@@ -203,15 +203,17 @@ a=1
 b=1
 print(a == b)  # --> comparision operator has been used 
 print(a is b)  
+"""
 
 #Membership operator
  
 #get ab input foem an use and print the functions
-
+"""
 toll1 = int(input("Chennai toll1 collected amount rs: "))
 toll2 = int(input("Vellore toll2 collected amount rs: "))
 toll3 = int(input("Ambur toll3 collected amount rs: "))
 toll4 = int(input("Gudiyatham the toll4 collected amount rs: "))
+
 if(toll1 > 100):
     print(toll1, "Charged an higher Price as per the norms of RTO")
     if(toll1<100):
@@ -220,6 +222,7 @@ if(toll1 > 100):
             print("Too much amount has been Collected in Chennai ")
     elif(toll1 > 1000):
         print("Rais an complaint against an \"RTO\" in chennai and inform to the the owner")
+
 if(toll2 > 150):
     print(toll2, "Charged an higher Price and inform to owner")
     if(toll2<120):
@@ -247,15 +250,19 @@ if(toll4 > 100):
 sum = toll1 + toll2 + toll3 + toll4
 print("THe trip has been complted sucessfully and the total spent inthe tool amount would be \n :" , sum)
 
-
+"""
 #  Loop Statement 
 
-i. For Loop 
+"""i. For Loop 
 ii. while Loop
+"""
+"""
 a = 1
 while a>0:
     print(a)
     a=a + 1
+"""
+"""
 
 num =35
 symbol = "%"
@@ -272,3 +279,4 @@ while b<=num:
     counter +=1
 print("loope ended here")
 """
+
